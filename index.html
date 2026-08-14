@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jovince De La Cruz - Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1> Jovince De La Cruz</h1>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="about">About</a>
+                </li>
+                <li>
+                    <a href="service">Service</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p class="about-me">Ako ni</p>
+        </section>
+        <section id="service">
+            <h2>Service</h2>
+            <p class="service">Ikaw na?</p>
+        </section>
+        <section id="contact">
+            <h2>Contact mo na?</h2>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required> <br>
+
+                <label for="email">email</label>
+                <input type="text" id="email" name="email" required> <br>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" name="message" row="5" required></textarea><br>
+
+                <label for="allow"> Eh Allow Kobi</label>
+                <input type="checkbox" name="allowed" id="allow"><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
