@@ -11,3 +11,13 @@ console.log(`Age: ${age}`);
 console.log(`Contact number: ${number}`);
 console.log(`Address: ${address}`);
 console.log(67);
+    
+function greet(greeting, names = []) {
+    if (Array.isArray(names)) {
+        names = names.join(", ");
+    }
+    return `${greeting} sa enyu, ${names}`;
+}
+console.log(greet("Mayung aga", ["Jovince", "Bai", "Soy" , "tol" , "erp"]));
+
+
