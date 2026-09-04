@@ -24,7 +24,6 @@ main{
     gap: 30px;
     padding: 50px;
     margin: 50px;
-    background-color: antiquewhite;
     max-width: 1200px;
 }
 main section{
@@ -72,4 +71,21 @@ main section{
             font-size: 48px;
             color: blue;
         }
+    }
+    nav a {
+        transition: color 1s ease;
+    }
+    nav a:hover {
+        color: pink;
+    }
+    button{
+        transition: background-color 1s ease;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 20px;
+    }
+    button:hover{
+        background-color: pink;
     }
