@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jovince De La Cruz - Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Jovince De La Cruz</h1>
 
     <header>
         <nav>
-            <span> jovince2004</span>
+            <span>@jovince2004</span>
             <ul>
-                
-                <li>
-                    <a href="about">About</a>
-                </li>
-                <li>
-                    <a href="service">Service</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
-        </nav>  
+        </nav>
     </header>
+
     <main>
-        <section id="about">
-            <h2>About me</h2>
-            <p class="about-me">Ako ni</p>
+        <section id="projects">
+            <h2 class="projects">My Projects</h2>
+            <p>Personal portfolio, payroll system, company website, startup website, and compliance monitoring system.
+            </p>
         </section>
-        <section id="service">
-            <h2>Service</h2>
-            <p class="service">Ikaw na?</p>
+
+        <section id="services">
+            <h2 class="services">My Services</h2>
+            <p>Website Creation, System Creation, AI Automation, Database Management, Project Management, Systems
+                Analyst</p>
         </section>
+
         <section id="contact">
-            <h2>Contact mo na?</h2>
+            <h2 class="contact">Let's build together!</h2>
             <form action="#">
+                <!-- Name -->
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" required> <br>
+                <input type="text" id="name" name="name" required>
 
-                <label for="email">email</label>
-                <input type="text" id="email" name="email" required> <br>
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
 
+                <!-- Message -->
                 <label for="message">Message</label>
-                <textarea name="message" id="message" name="message" row="5" required></textarea><br>
+                <textarea name="message" id="message" rows="5" required></textarea>
 
+                <!-- Submit -->
                 <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
+
     <script src="script.js"></script>
-    
 </body>
 </html>

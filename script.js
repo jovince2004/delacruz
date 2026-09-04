@@ -11,7 +11,7 @@ console.log(`Age: ${age}`);
 console.log(`Contact number: ${number}`);
 console.log(`Address: ${address}`);
 console.log(67);
-    
+
 function greet(greeting, names = []) {
     if (Array.isArray(names)) {
         names = names.join(", ");
@@ -20,4 +20,11 @@ function greet(greeting, names = []) {
 }
 console.log(greet("Mayung aga", ["Jovince", "Bai", "Soy" , "tol" , "erp"]));
 
+const heading = document.querySelector("h1");
+console.log(heading);
 
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+
+const serviceHeading = document.querySelector("#services h2");
+console.log(serviceHeading);
