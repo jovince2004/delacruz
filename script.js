@@ -21,7 +21,10 @@ function greet(greeting, names = []) {
 console.log(greet("Mayung aga", ["Jovince", "Bai", "Soy" , "tol" , "erp"]));
 
 const heading = document.querySelector("h1 ");
-console.log(heading.textContent ='Mel "amay fish dealer" Toyab');
+heading.textContent = "Mel 'amay fish dealer' Toyab";
+heading.style.color = "gray";
+heading.style.fontSize = "50px";
+heading.style.backgroundColor = "yellow";
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
